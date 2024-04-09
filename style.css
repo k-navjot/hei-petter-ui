@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+.row {
+  display: flex;
+}
+.column-2 {
+  flex: 50%;
+}
+.column-1 {
+  flex: 100%;
+}
+/* heading section css */
+.heading-section {
+  text-align: center;
+}
+.heading-section .inner-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading-section .title {
+  font-family: "Inter", sans-serif;
+  font-size: 78.22px;
+  font-weight: 500;
+  line-height: 94.66px;
+  color: #022b47;
+  margin-left: 10px;
+}
+.heading-section .responsive-image {
+  width: 100%;
+  height: auto;
+  max-width: 120px;
+}
