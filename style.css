@@ -3,6 +3,7 @@
 }
 body {
   font-family: "Inter", sans-serif;
+  padding: 50px;
 }
 .row {
   display: flex;
@@ -34,4 +35,109 @@ body {
   width: 100%;
   height: auto;
   max-width: 120px;
+}
+/*  section2 css */
+.section-2 {
+  margin-top: 20px;
+}
+.section-2 .left-section {
+  background-color: #014b7f;
+  min-height: 479px;
+  height: 100%;
+  padding: 0 20px;
+}
+.section-2 .left-section .vertical-stars {
+  display: flex;
+  justify-content: flex-end;
+}
+.section-2 .left-section .horizontal-stars {
+  display: flex;
+  justify-content: flex-start;
+}
+.section-2 .left-section .heading-text {
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 53.6px;
+  color: #ffffff;
+}
+.section-2 .left-section .find-talent {
+  height: 67px;
+  border-radius: 50px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  margin: 20px 0;
+}
+.section-2 .left-section .sub-text {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25.89px;
+  color: #ffffff;
+}
+.section-2 .right-section {
+  background-color: #e5f3f7;
+  padding: 20px;
+  position: relative;
+}
+.section-2 .right-section .text {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25.89px;
+  max-width: 340px;
+  display: inline-block;
+}
+.section-2 .right-section .circle-logo {
+  position: absolute;
+  top: -100px;
+}
+/*  section-3 css */
+.section-3 {
+  margin: 50px 0;
+}
+.section-3 .get-started-button {
+  background-color: #014b7f;
+  color: #ffffff;
+  padding: 10px;
+  border: 1px solid #014b7f;
+  border-radius: 50px;
+  width: 200px;
+  height: 67px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  margin-left: 20px;
+}
+.section-3 .get-started-section {
+  display: flex;
+  align-items: center;
+}
+/*  section-4 css */
+.section-4 .left-section .heading-div {
+  display: flex;
+  position: relative;
+}
+.section-4 .left-section .heading {
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #014b7f;
+}
+.section-4 .left-section .bend-arrow {
+  position: absolute;
+  top: 15px;
+  left: -30px;
+}
+.section-4 .left-section .text {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25.89px;
+}
+.section-4 .left-section .blue-stars {
+  display: flex;
+  justify-content: flex-end;
+}
+.section-4 .right-section {
 }
