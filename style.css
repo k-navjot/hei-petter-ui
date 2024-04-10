@@ -189,5 +189,38 @@ body {
   display: flex;
   justify-content: flex-end;
 }
-.section-4 .right-section {
+/*  footer css */
+.footer .left-footer {
+  background-color: #f4fbf6;
+  min-height: 763px;
+  padding: 50px;
+}
+.footer .left-footer .contact-us-section {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .left-footer .logo-section {
+  display: flex;
+  align-items: center;
+}
+
+.footer .left-footer .logo-section .responsive-image {
+  width: 100%;
+  height: auto;
+  max-width: 53px;
+}
+.footer .left-footer .logo-section .title {
+  font-family: "Inter", sans-serif;
+  font-size: 37.47px;
+  font-weight: 500;
+  line-height: 45.35px;
+  color: #022b47;
+}
+.footer .left-footer .vertical-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .right-footer {
+  background-color: #01497c;
 }
