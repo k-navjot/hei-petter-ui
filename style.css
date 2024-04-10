@@ -3,7 +3,6 @@
 }
 body {
   font-family: "Inter", sans-serif;
-  padding: 50px;
 }
 .row {
   display: flex;
@@ -13,6 +12,57 @@ body {
 }
 .column-1 {
   flex: 100%;
+}
+/* header  css */
+.header {
+  padding: 14px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e6e6e6;
+  margin-bottom: 20px;
+}
+.header .link {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.78px;
+  color: #000000;
+  text-decoration: none;
+}
+.header .left-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.header .right-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+}
+.header .right-nav .register-button {
+  padding: 14px 56px;
+  border-radius: 50px;
+  border: 1px solid #000000;
+  background-color: #ffffff;
+  margin-right: 15px;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.78px;
+}
+.header .right-nav .login-button {
+  padding: 14px 56px;
+  border-radius: 50px;
+  border: 1px solid #000000;
+  background-color: #ffffff;
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.78px;
 }
 /* heading section css */
 .heading-section {
