@@ -220,7 +220,104 @@ body {
   display: flex;
   flex-direction: column;
 }
+.footer .left-footer .vertical-menu .heading {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.05px;
+  margin-bottom: 20px;
+}
+.footer .left-footer .vertical-menu .link {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  color: #232323;
+  text-decoration: none;
+  padding: 10px 0;
+}
+.footer .left-footer .footer-text {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.65px;
+  margin: 30px 0;
+}
+.footer .left-footer .footer-line {
+  width: 120px;
+  border: 1px solid #01497c;
+}
+.footer .left-footer .copyright-text {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  color: #01497c;
+  margin-top: 20px;
+}
 
 .footer .right-footer {
   background-color: #01497c;
+  padding: 50px;
+}
+.footer .right-footer .footer-content-title,
+.footer-content-subtitle {
+  font-family: "Inter", sans-serif;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 65.9px;
+  display: inline-block;
+  color: #ffffff;
+}
+.footer .right-footer .footer-content-contact-icons {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+.footer .right-footer .footer-content-contact-icons .icon {
+  height: auto;
+  width: 100%;
+  max-width: 46px;
+}
+.footer .right-footer .footer-content-contact-icons .contact-text-heading {
+  display: block;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.05px;
+  color: #ffffff;
+}
+.footer .right-footer .footer-content-contact-icons .contact-text-sub-heading {
+  display: inline-block;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.94px;
+  opacity: 50%;
+  color: #ffffff;
+}
+.footer .right-footer .footer-content-contact-icons .contact-text {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  color: #ffffff;
+}
+.footer .right-footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 80px;
+}
+.footer .right-footer .social-icons .footer-line {
+  width: 100px;
+  border: 1px solid #ffffff;
+  height: 0px;
+}
+.footer .right-footer .social-icons .text {
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 26.63px;
+  color: #ffffff;
 }
